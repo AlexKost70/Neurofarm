@@ -1,0 +1,73 @@
+.characters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.characters > h1 {
+    position: absolute;
+    top: 0;
+    max-width: 588px;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.characters .choice {
+    display: flex;
+    justify-content: center;
+    gap: 108px;
+}
+
+.characters .character {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 37px;
+    background: linear-gradient(341deg, rgba(30, 78, 78, 0.40) 0%, rgba(31, 36, 49, 0.40) 100%), rgba(31, 36, 49, 0.40);
+    backdrop-filter: blur(9px);
+    width: 594px;
+    height: 450px;
+}
+
+.characters .character img {
+    margin-bottom: 15px;
+}
+
+.characters .character .boy {
+    width: 305.917px;
+    height: 295px;
+}
+
+.characters .character .girl {
+    width: 295px;
+    height: 295px;
+}
+
+.characters .character div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 29px;
+    padding-right: 30px;
+}
+
+.characters .character p {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.characters .character .button {
+    margin-top: 15px;
+    width: 184px;
+    height: 60px;
+    border-radius: 12px;
+}
+
