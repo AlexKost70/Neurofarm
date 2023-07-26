@@ -1,16 +1,18 @@
 import './App.css';
-import { useState } from 'react';
+import { useContext, useEffect } from 'react';
 import ScreenChoiceCharacter from './components/screenChoiceCharacter/ScreenChoiceCharacter';
 import ScreenLoader from './components/screenLoader/ScreenLoader';
-import SelectWindow from './components/selectWindow/SelectWindow';
+import { AppContext }  from './hoc/AppProvider';
+import ScreenHello from './components/screenHello/ScreenHello';
 
 function App() {
-  const [character, setCharacter] = useState();
-  const [screen, setScreen] = useState("ScreenLoader");
+  const { screen } = useContext(AppContext);
+
   return (
     <div className="App">
-      {/* <ScreenLoader /> */}
-      <ScreenChoiceCharacter />
+      { screen === "ScreenLoader" && <ScreenLoader /> }
+      { screen === "ScreenChoiceCharacter" && <ScreenChoiceCharacter /> }
+      { screen === "ScreenHello" && <ScreenHello /> }
     </div>
   );
 }

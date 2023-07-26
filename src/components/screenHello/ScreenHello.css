@@ -1,0 +1,61 @@
+.hello {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hello .window {
+    width: 841px;
+    min-height: 779px;
+    border-radius: 20px;
+    border: 5px solid var(--primary-3);
+    background: var(--primary-2);
+    display: flex;
+    flex-direction: column;
+    padding-left: 48px;
+    margin-top: 71px;
+    gap: 17px;
+    position: relative;
+}
+
+.hello .window .text-1 {
+    margin-top: 86px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+}
+
+.hello .window .text-1 span {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.hello .window .text-2 {
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 661px;
+}
+
+.hello .window .text-3 {
+    margin-bottom: 9px;
+    color: var(--primary-3);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.hello .window .button {
+    width: 232px;
+    height: 60px;
+    border-radius: 12px;
+}
+
+.hello .robot {
+    width: 331px;
+    height: 319.188px;
+    position: absolute;
+    bottom: -106px;
+    left: -267px;
+}
