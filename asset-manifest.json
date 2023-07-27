@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Neurofarm-Build/static/css/main.8ec3fd94.css",
+    "main.js": "/Neurofarm-Build/static/js/main.6899254c.js",
+    "static/media/boy.png": "/Neurofarm-Build/static/media/boy.d246c3db6041a12525ac.png",
+    "static/media/girl.png": "/Neurofarm-Build/static/media/girl.4e4db52ec13c19921e42.png",
+    "static/media/logo.svg": "/Neurofarm-Build/static/media/logo.fa46b88343243fa3415553dacf892e05.svg",
+    "static/media/money.svg": "/Neurofarm-Build/static/media/money.b37f3acd90a76de34ecd8ba2f8b857cf.svg",
+    "static/media/money-green.svg": "/Neurofarm-Build/static/media/money-green.e3de39225fac92ff23bf91b63ad946f0.svg",
+    "static/media/progress.svg": "/Neurofarm-Build/static/media/progress.da47e067b2284cc5d3dc1db6f63e05b5.svg",
+    "index.html": "/Neurofarm-Build/index.html",
+    "static/media/info.svg": "/Neurofarm-Build/static/media/info.bb6fe4a09b2a36006dc700c04d4f0874.svg",
+    "main.8ec3fd94.css.map": "/Neurofarm-Build/static/css/main.8ec3fd94.css.map",
+    "main.6899254c.js.map": "/Neurofarm-Build/static/js/main.6899254c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ec3fd94.css",
+    "static/js/main.6899254c.js"
+  ]
+}
