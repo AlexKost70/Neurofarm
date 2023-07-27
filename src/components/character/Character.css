@@ -1,0 +1,18 @@
+.robot {
+    position: relative;
+    z-index: 2;
+}
+
+.robot.boy {
+    width: 203.994px;
+    height: 196.714px;
+    left: 65px;
+    bottom: 450px;
+}
+
+.robot.girl {
+    width: 282px;
+    height: 282px;
+    bottom: 530px;
+    left: 20px;
+}

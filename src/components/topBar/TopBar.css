@@ -1,0 +1,48 @@
+.bar {
+    width: 100%;
+    background: var(--primary-1);
+    padding-top: 35px;
+    padding-bottom: 27px;
+}
+
+.bar .wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.bar h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.bar .button {
+    width: 200px;
+    height: 62px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-2);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    border-radius: 12px;
+}
+
+.bar .button.disabled {
+    cursor: default;
+}
+
+.bar .progress img {
+    width: 31px;
+    height: 31px;
+}
+
+.bar .money img {
+    width: 39.09px;
+    height: 29.318px;
+}

@@ -5,7 +5,7 @@ import boyImg from "../../imgs/boy.png";
 import girlImg from "../../imgs/girl.png";
 
 export default function ScreenHello() {
-    const { character } = useContext(AppContext);
+    const { character, setScreen } = useContext(AppContext);
     const [page, setPage] = useState(1);
 
     const img = character === "boy" ? boyImg : girlImg;
@@ -31,7 +31,7 @@ export default function ScreenHello() {
                         Нужно улучшить ферму.<br />Это сельскохозяйственный агрокомплекс.<br />Расположен в центральном регионе России.
                     </p>
                     <p className="text-3">За работу!</p>
-                    <button className="button">Далее</button>
+                    <button onClick={() => setScreen("ScreenTutorial")} className="button">Далее</button>
                     <img src={img} alt="Персонаж" className="robot" />
                 </div> 
             }

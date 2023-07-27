@@ -1,0 +1,31 @@
+.dialog {
+    display: flex;
+    flex-direction: column;
+    width: 724px;
+    padding: 26px 0px 26px 48px;
+    border-radius: 12px;
+    border: 5px solid var(--primary-3);
+    background: var(--primary-2);
+    position: relative;
+    bottom: 320px;
+    left: 20%;
+    gap: 10px;
+    z-index: 1;
+}
+
+.dialog h2,
+.dialog p {
+    max-width: 555px;
+}
+
+.dialog h2 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.dialog p {
+    font-size: 20px;
+    line-height: 32px;
+}

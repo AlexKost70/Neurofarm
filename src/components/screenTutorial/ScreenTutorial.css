@@ -1,0 +1,9 @@
+.tutorial {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.tutorial .view {
+    height: calc(100vh - 124px);
+}
