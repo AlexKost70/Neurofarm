@@ -10,7 +10,7 @@ import ShareDialog from "../shareDialog/ShareDialog";
 import ChoicePreview from "../choicePreview/ChoicePreview";
 
 export default function ScreenPlay() {
-    const { level, setLevel } = useContext(AppContext);
+    const { level } = useContext(AppContext);
     const [farmImage, setFarmImage] = useState("farm.png");
     const [showDialog, setShowDialog] = useState(true);
     const [showShareDialog, setShowShareDialog] = useState(false);
@@ -39,18 +39,18 @@ export default function ScreenPlay() {
     }
 
     const toggleShowPreview = (img) => {
-        setShowChoice(!showChoice);
-        setShowPreview(!showPreview);
+        if (level.length == 5) {
+            console.log("конец");
+        } else {
+            setShowChoice(!showChoice);
+            setShowPreview(!showPreview);
+        }
     }
-
-    useEffect(() =>{
-
-    }, [])
 
     return(
         <div className="play" onClick={handleImageClick}>
             <TopBar />
-            <img src={require(`../../imgs/levels/level${level[0]}/${farmImage}`)} alt="" className="view" />
+            <img src={require(`../../imgs/farm/${farmImage}`)} alt="" className="view" />
             { showChoice && <ChoicePath level={levels["level-" + level[0]]} farmImage={farmImage} toggleShowPreview={toggleShowPreview} /> }
             { showShareDialog && <ShareDialog image={farmImage} buttonClickHandler={toggleShareUI} /> }
             { showDialog && <CharacterDialogWrapped>{levels["level-" + level[0]].description}</CharacterDialogWrapped> }

@@ -7,7 +7,7 @@ import FarmNameForm from "../farmNameForm/FarmNameForm";
 import levels from "../../json/levels.json";
 import ChoicePath from "../choicePath/ChoicePath";
 import { AppContext } from "../../hoc/AppProvider";
-import farmImg from "../../imgs/levels/level1/farm.png";
+import farmImg from "../../imgs/farm/farm.png";
 
 export default function ScreenFarm() {
     const { setScreen } = useContext(AppContext);

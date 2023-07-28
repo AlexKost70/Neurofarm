@@ -5,8 +5,8 @@ import { useContext } from "react";
 import { AppContext } from "../../hoc/AppProvider";
 
 export default function SelectWindow(props) {
-    const { setPrevFarmImage, setNextFarmImage, level, setLevel } = useContext(AppContext);
-    const { farm, num, img, info, price, title } = props.choice;
+    const { setPrevFarmImage, setNextFarmImage, setChoice, choice } = useContext(AppContext);
+    const { num, img, info, price, title } = props.choice;
     let buttonStatus = "";
     
     if (props.disabled) {
@@ -17,14 +17,25 @@ export default function SelectWindow(props) {
         if (!props.disabled) {
             props.toggleShowPreview();
             setPrevFarmImage(props.farmImage);
-            if (props.farmImage === farm.png) {
+            if (props.farmImage === "farm.png") {
                 setNextFarmImage(`farm-${num}.png`);
             } else {
-                setNextFarmImage(`farm-${level}.png`);
+                let variant = choice+num.toString();
+                if (variant.length > 3) {
+                    if (variant[0] === "1" && variant[variant.length-1] === "1") {
+                        setNextFarmImage("farm-final-1.png");
+                    } else if (variant[0] === "1" && variant[variant.length-1] === "2") {
+                        setNextFarmImage("farm-final-2.png");
+                    } else if (variant[0] === "2" && variant[variant.length-1] === "1") {
+                        setNextFarmImage("farm-final-3.png");
+                    } else if (variant[0] === "2" && variant[variant.length-1] === "2") {
+                        setNextFarmImage("farm-final-4.png");
+                    }
+                } else {
+                    setNextFarmImage(`farm-${choice+num.toString()}.png`);
+                }
             }
-            console.log(level);
-            setLevel(level + "-" + num);
-            console.log(level);
+            setChoice(choice + num.toString());
         }
     }
 
