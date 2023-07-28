@@ -1,20 +1,41 @@
 {
   "files": {
-    "main.css": "/Neurofarm/static/css/main.8ec3fd94.css",
-    "main.js": "/Neurofarm/static/js/main.41f4ec64.js",
+    "main.css": "/Neurofarm/static/css/main.b6cc2d8c.css",
+    "main.js": "/Neurofarm/static/js/main.224455de.js",
+    "static/media/farm-11.png": "/Neurofarm/static/media/farm-11.0deb8174c8b438891f24.png",
+    "static/media/farm-21.png": "/Neurofarm/static/media/farm-21.7313fccc53543b403e30.png",
+    "static/media/farm-12.png": "/Neurofarm/static/media/farm-12.c54d81d65b02a4b299a1.png",
+    "static/media/farm-211.png": "/Neurofarm/static/media/farm-211.8ccc4875e3657a61fdc9.png",
+    "static/media/farm-222.png": "/Neurofarm/static/media/farm-222.7b6345e233f7fd0846e9.png",
+    "static/media/farm-122.png": "/Neurofarm/static/media/farm-122.48735165394f36e9dc64.png",
+    "static/media/farm-22.png": "/Neurofarm/static/media/farm-22.9c63608ff10fffbf43d7.png",
+    "static/media/farm-final-1.png": "/Neurofarm/static/media/farm-final-1.ea82fbc979f417bd7d1b.png",
+    "static/media/farm-221.png": "/Neurofarm/static/media/farm-221.d1ca2f2c39e0e52784b6.png",
+    "static/media/farm-112.png": "/Neurofarm/static/media/farm-112.e358ddfb7c4ebb6629ff.png",
+    "static/media/farm-111.png": "/Neurofarm/static/media/farm-111.faf5ca81774e09472a22.png",
+    "static/media/farm-final-3.png": "/Neurofarm/static/media/farm-final-3.43332613fcbedbadf660.png",
+    "static/media/farm-1.png": "/Neurofarm/static/media/farm-1.9091f8429550537666aa.png",
+    "static/media/farm-212.png": "/Neurofarm/static/media/farm-212.02dc0993f6a22c424ff4.png",
+    "static/media/farm-121.png": "/Neurofarm/static/media/farm-121.82ff3b3e0d52289ced2c.png",
+    "static/media/farm-final-2.png": "/Neurofarm/static/media/farm-final-2.7469600b68afe69e6e76.png",
+    "static/media/farm-2.png": "/Neurofarm/static/media/farm-2.6f599a5e0683ed61f4be.png",
+    "static/media/farm.png": "/Neurofarm/static/media/farm.fd547ce674bab0190a87.png",
+    "static/media/farm-final-4.png": "/Neurofarm/static/media/farm-final-4.1e25bc5fc9d8af3d3441.png",
+    "static/media/choice-2.png": "/Neurofarm/static/media/choice-2.9cfbc9ee96deeeea5cc6.png",
+    "static/media/choice-1.png": "/Neurofarm/static/media/choice-1.bac88a724b7f5fbc3c56.png",
     "static/media/boy.png": "/Neurofarm/static/media/boy.d246c3db6041a12525ac.png",
     "static/media/girl.png": "/Neurofarm/static/media/girl.4e4db52ec13c19921e42.png",
-    "static/media/logo.svg": "/Neurofarm/static/media/logo.fa46b88343243fa3415553dacf892e05.svg",
-    "static/media/money.svg": "/Neurofarm/static/media/money.b37f3acd90a76de34ecd8ba2f8b857cf.svg",
-    "static/media/money-green.svg": "/Neurofarm/static/media/money-green.e3de39225fac92ff23bf91b63ad946f0.svg",
-    "static/media/progress.svg": "/Neurofarm/static/media/progress.da47e067b2284cc5d3dc1db6f63e05b5.svg",
+    "static/media/logo.svg": "/Neurofarm/static/media/logo.a404e3097cdb9b83c8f7282d1dd0020f.svg",
+    "static/media/money.svg": "/Neurofarm/static/media/money.739b04da9b3bdc16c5bc251fb7bd051f.svg",
+    "static/media/money-green.svg": "/Neurofarm/static/media/money-green.72b9d16c01898b766c4889d134285d3a.svg",
+    "static/media/progress.svg": "/Neurofarm/static/media/progress.69a9e571725bc472339c6520e88dca07.svg",
     "index.html": "/Neurofarm/index.html",
-    "static/media/info.svg": "/Neurofarm/static/media/info.bb6fe4a09b2a36006dc700c04d4f0874.svg",
-    "main.8ec3fd94.css.map": "/Neurofarm/static/css/main.8ec3fd94.css.map",
-    "main.41f4ec64.js.map": "/Neurofarm/static/js/main.41f4ec64.js.map"
+    "static/media/info.svg": "/Neurofarm/static/media/info.8e269f8e2dfd2693b2c2d9bc2e3c4f97.svg",
+    "main.b6cc2d8c.css.map": "/Neurofarm/static/css/main.b6cc2d8c.css.map",
+    "main.224455de.js.map": "/Neurofarm/static/js/main.224455de.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ec3fd94.css",
-    "static/js/main.41f4ec64.js"
+    "static/css/main.b6cc2d8c.css",
+    "static/js/main.224455de.js"
   ]
 }
