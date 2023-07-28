@@ -7,6 +7,7 @@ import FarmNameForm from "../farmNameForm/FarmNameForm";
 import levels from "../../json/levels.json";
 import ChoicePath from "../choicePath/ChoicePath";
 import { AppContext } from "../../hoc/AppProvider";
+import farmImg from "../../imgs/farm.png";
 
 export default function ScreenFarm() {
     const { setScreen } = useContext(AppContext);
@@ -98,7 +99,7 @@ export default function ScreenFarm() {
             ref={tutorialDiv}
         >
             <TopBar disabled={true} blur={blurBar} />
-            <img src="./imgs/levels/level1/farm.png" alt="" className={blurFarm ? "view blur" : "view"} />
+            <img src={farmImg} alt="" className={blurFarm ? "view blur" : "view"} />
             {
                 page !== 5 &&
                     <CharacterDialog additionalText={dialogues[page-1].additionalText}>

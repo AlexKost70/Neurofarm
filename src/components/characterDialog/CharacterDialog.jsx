@@ -7,9 +7,11 @@ export default function CharacterDialog(props) {
     }
 
     return(
-        <div className="dialog">
-            <h2>{props.children}</h2>
-            <p className={!showAdditionalText ? "hidden" : null}>{props.additionalText}</p>
+        <div className="dialog-wrapper">
+            <div className="dialog">
+                <h2>{props.children}</h2>
+                <p className={!showAdditionalText ? "hidden" : null}>{props.additionalText}</p>
+            </div>
         </div>
     )
 }

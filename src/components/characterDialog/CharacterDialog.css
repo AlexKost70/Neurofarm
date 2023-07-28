@@ -1,3 +1,14 @@
+.dialog-wrapper {
+    width: 100%;
+    max-width: 1512px;
+    height: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
 .dialog {
     display: flex;
     flex-direction: column;
@@ -6,11 +17,10 @@
     border-radius: 12px;
     border: 5px solid var(--primary-3);
     background: var(--primary-2);
-    position: relative;
-    bottom: 320px;
-    left: 20%;
     gap: 10px;
     z-index: 1;
+    margin: 0 auto;
+    margin-left: 20%;
 }
 
 .dialog h2,

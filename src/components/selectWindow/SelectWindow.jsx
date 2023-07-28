@@ -4,7 +4,6 @@ import "./SelectWindow.css";
 
 export default function SelectWindow(props) {
     const { img, info, price, title } = props.choice;
-    const baseUrl = "./imgs/";
     let buttonStatus = "";
     
     if (props.disabled) {
@@ -26,7 +25,7 @@ export default function SelectWindow(props) {
     return(
         <div className="selectwindow">
             <button className={"info" + buttonStatus} onClick={handleInfoClick}><img src={infoImg} alt="Информация" /></button>
-            <img src={baseUrl + img} alt={title} className="choice-image" />
+            <img src={require("./../../imgs/levels/" + img)} alt={title} className="choice-image" />
             <div className="footer">
                 <div className="left">
                     <p className="choice-title">{title}</p>

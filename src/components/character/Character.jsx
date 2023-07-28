@@ -10,6 +10,8 @@ export default function Character() {
     const img = character === "boy" ? boyImg : girlImg;
 
     return(
-        <img src={img} alt="" className={"robot " + character} />
+        <div className="character-wrapper">
+            <img src={img} alt="" className={"robot " + character} />
+        </div>
     )
 }

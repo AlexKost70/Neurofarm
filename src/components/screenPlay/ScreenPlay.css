@@ -1,0 +1,9 @@
+.play {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.play .view {
+    height: calc(100vh - 124px);
+}
