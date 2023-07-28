@@ -7,3 +7,11 @@
 .play .view {
     height: calc(100vh - 124px);
 }
+
+.play .path {
+    pointer-events: none;
+}
+
+.play .path .selectwindow {
+    pointer-events: auto;
+}

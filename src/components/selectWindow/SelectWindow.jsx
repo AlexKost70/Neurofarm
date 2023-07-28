@@ -1,9 +1,12 @@
 import infoImg from "../../imgs/info.svg";
 import moneyImg from "../../imgs/money-green.svg"
 import "./SelectWindow.css";
+import { useContext } from "react";
+import { AppContext } from "../../hoc/AppProvider";
 
 export default function SelectWindow(props) {
-    const { img, info, price, title } = props.choice;
+    const { setPrevFarmImage, setNextFarmImage, level, setLevel } = useContext(AppContext);
+    const { farm, num, img, info, price, title } = props.choice;
     let buttonStatus = "";
     
     if (props.disabled) {
@@ -12,7 +15,16 @@ export default function SelectWindow(props) {
 
     const handleChooseClick = () => {
         if (!props.disabled) {
-            console.log("clicked");
+            props.toggleShowPreview();
+            setPrevFarmImage(props.farmImage);
+            if (props.farmImage === farm.png) {
+                setNextFarmImage(`farm-${num}.png`);
+            } else {
+                setNextFarmImage(`farm-${level}.png`);
+            }
+            console.log(level);
+            setLevel(level + "-" + num);
+            console.log(level);
         }
     }
 
